@@ -23,7 +23,7 @@
 
 - 已将 GitHub Pages 的 `url` 与 `baseurl` 配置为用户站点地址，避免资源路径错误。
 - 使用 `remote_theme` 方式兼容 GitHub Pages 的构建环境，减少依赖问题。
-- 将 `index.html` 改为 Jekyll 首页入口，确保模版首页渲染生效。
+- 移除根目录 `index.html`，避免覆盖 Jekyll 生成的首页。
 
 ## 可能的改进
 
