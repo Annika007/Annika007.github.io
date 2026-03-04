@@ -1,5 +1,36 @@
 # ⚠️ Unmaintained ⚠️
 
+# 项目使用说明（给站点维护者）
+
+这个仓库是基于 Prologue 模版的 Jekyll 站点，适用于 GitHub Pages（`https://annika007.github.io/`）。
+
+## 快速开始
+
+1. 修改站点信息：编辑 `_config.yml` 中的 `title`、`subtitle`、`description`、`author`、`email`、`avatar`。
+2. 编辑首页内容：在 `_sections/` 中修改或新增分区文件（`intro.html`、`about-me.html` 等）。
+3. 添加页面：在根目录新建 `.md` 或 `.html` 文件，并添加 `layout: page` 的 frontmatter。
+4. 博客文章：在 `_posts/` 中新增 Markdown 文件，命名格式 `YYYY-MM-DD-title.md`。
+5. 访问地址：提交到 `main` 分支后，GitHub Pages 会自动更新 `https://annika007.github.io/`。
+
+## 目录说明
+
+- `_sections/`：首页滚动分区内容（必需）
+- `_layouts/`、`_includes/`、`_sass/`：模版布局与样式
+- `assets/`：图片、脚本、样式文件
+- `_config.yml`：站点全局配置（GitHub Pages 关键配置）
+
+## 最近调整与反思
+
+- 已将 GitHub Pages 的 `url` 与 `baseurl` 配置为用户站点地址，避免资源路径错误。
+- 使用 `remote_theme` 方式兼容 GitHub Pages 的构建环境，减少依赖问题。
+- 将 `index.html` 改为 Jekyll 首页入口，确保模版首页渲染生效。
+
+## 可能的改进
+
+- 用真实个人信息替换示例内容，提升页面可信度。
+- 替换 `_sections/` 中的示例图为个人作品或头像。
+- 添加 `favicon` 与自定义 `404.html` 内容提升体验。
+
 # Prologue - Jekyll Theme
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-prologue.svg)](https://badge.fury.io/rb/jekyll-theme-prologue)
