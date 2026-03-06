@@ -25,6 +25,7 @@
 - 使用 `remote_theme` 方式兼容 GitHub Pages 的构建环境，减少依赖问题。
 - 移除根目录 `index.html`，避免覆盖 Jekyll 生成的首页。
 - 新增 `News` 与 `Publications` 分区，并为作品集卡片补充了简介占位，版式更完整清晰。
+- `Academic CV` 增加了实习经历占位，并加入简历 PDF 图标入口；`News` 改为带图标与分割线的逐条显现样式。
 
 ## 可能的改进
 
@@ -32,6 +33,7 @@
 - 替换 `_sections/` 中的示例图为个人作品或头像。
 - 添加 `favicon` 与自定义 `404.html` 内容提升体验。
 - 将 `News` 与 `Publications` 中的占位内容替换为真实动态与论文信息，并补全链接。
+- 准备并上传真实简历 PDF 文件（替换 `assets/docs/annika-cv.pdf`）。
 
 # Prologue - Jekyll Theme
 

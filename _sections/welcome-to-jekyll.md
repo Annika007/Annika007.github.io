@@ -1,10 +1,15 @@
 ---
 title: Academic CV
 icon: fa-graduation-cap
-order: 5
+order: 6
 ---
 
-## Ziyou Wang
+<div class="cv-title-row">
+  <h2 class="cv-title">Ziyou Wang</h2>
+  <a class="cv-download" href="{{ 'assets/docs/annika-cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open CV PDF">
+    <i class="fas fa-file-pdf"></i>
+  </a>
+</div>
 
 **[Current Title / Program]** · [School / Department]  
 [City, Country] · [Email] · [Website] · [Google Scholar / ORCID]
@@ -37,6 +42,13 @@ order: 5
 - [Project or responsibility]
 - [Key method or contribution]
 - [Result or impact]
+
+---
+
+### Internship Experience
+**[Intern Title]** — [Company / Lab], [Location], [Start–End]  
+- [What you worked on, in one line]
+- [Your contribution or measurable impact]
 
 ---
 
