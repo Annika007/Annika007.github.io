@@ -24,12 +24,14 @@
 - 已将 GitHub Pages 的 `url` 与 `baseurl` 配置为用户站点地址，避免资源路径错误。
 - 使用 `remote_theme` 方式兼容 GitHub Pages 的构建环境，减少依赖问题。
 - 移除根目录 `index.html`，避免覆盖 Jekyll 生成的首页。
+- 新增 `News` 与 `Publications` 分区，并为作品集卡片补充了简介占位，版式更完整清晰。
 
 ## 可能的改进
 
 - 用真实个人信息替换示例内容，提升页面可信度。
 - 替换 `_sections/` 中的示例图为个人作品或头像。
 - 添加 `favicon` 与自定义 `404.html` 内容提升体验。
+- 将 `News` 与 `Publications` 中的占位内容替换为真实动态与论文信息，并补全链接。
 
 # Prologue - Jekyll Theme
 
