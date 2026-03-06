@@ -112,7 +112,8 @@
 
 	.contact-header {
 		display: flex;
-		justify-content: space-between;
+		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
 		gap: 0.75em;
